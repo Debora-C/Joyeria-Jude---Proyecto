@@ -1,0 +1,24 @@
+/*GRID*/
+
+.grid{
+    width: 100%;
+    display: grid;
+  }
+  
+  .grid-temple-columns-row{
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+  }
+  
+  .justify-items{
+    justify-items: center;
+  }
+  
+  .align-items{
+    align-items: end;
+  }
+  
+  .content{
+    grid-template-columns: repeat(3, 33px);
+    justify-content:space-evenly;
+  }
